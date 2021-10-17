@@ -1,0 +1,10 @@
+li{
+    list-style: none;
+    font-size: 35px;
+    padding-right: 50px;
+    
+}
+
+.bg-color{
+    background-color: rgba(1, 1, 1, 0.7);
+}

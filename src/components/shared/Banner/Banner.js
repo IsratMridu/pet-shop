@@ -1,14 +1,16 @@
 import React from 'react';
+import Facilities from '../../Facilities/Facilities';
 import banner1 from '../../images/banner/banner1.jpg'
 import banner2 from '../../images/banner/banner2.jpg'
 import banner3 from '../../images/banner/banner3.jpg'
+import Privilege from '../../Privilege/Privilege';
 import Services from '../../Services/Services';
 import './Banner.css'
 
 
 const Banner = () => {
     return (
-        <div>
+        <div className="bg-info">
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
               <div className="carousel-inner">
              <div className="carousel-item active">
@@ -36,6 +38,12 @@ const Banner = () => {
                 <h1 className="text-center mb-5"><span className="text-success">Our Featured</span> Services</h1>
               
               <Services></Services>
+            </div>
+            <div>
+              <Facilities></Facilities>
+            </div>
+            <div>
+              <Privilege></Privilege>
             </div>
         </div>
     );

@@ -12,8 +12,12 @@ const Details = () => {
     },[]);
 
     // console.log(services);
-    const result = services.find(service => service.id === idNumber);
-    console.log(result);
+
+    const result = services.find(single =>single.id === parseInt(idNumber));
+    // console.log(result);
+    
+    
+ 
     
 
     
@@ -24,7 +28,13 @@ const Details = () => {
     return (
         <div>
             
-         
+      <div  className=" bg-success py-5 text-white">
+      <img src={result?.image} className="img-fluid rounded-3" alt="result_image" />   
+         <h1 className="mt-3">Name: {result?.name}</h1>
+         <h4>Description: {result?.description}</h4>
+         <h4>Cost: ${result?.cost}</h4>
+         <button className="btn btn-danger mt-3">Purchase Vaccine</button>
+      </div>
             
             
         </div>

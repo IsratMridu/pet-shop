@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Rabies Vaccine",
+    "cost": 28,
+    "description": "The minimum age for vaccination is 12-16 weeks. The minimum age is determined by state law and varies throughout the U.S., so please check with a veterinarian to determine the appropriate time to begin your pet’s rabies vaccine series.",
+    "image": "https://thumbs.dreamstime.com/z/dog-bite-sick-animal-rabies-virus-illustration-81689416.jpg"
+  },
+  {
+    "id": 2,
+    "name": "5-in-1 Vaccine (DA2P + Parvovirus)",
+    "cost": 42,
+    "description": "Minimum age of 6 weeks or older.Vaccination of puppies should begin at 6-8 weeks of age and be repeated every 3-4 weeks until 16-18 weeks of age. Dogs over 4 months old, that have never received vaccinations, will receive an initial vaccination with one booster vaccination 3-4 weeks later. Adult dog booster vaccination should be given at a frequency recommended by your veterinarian.",
+    "image": "https://drbillspetnutrition.com/wp-content/uploads/2016/06/1.-Parvo-Enteritis.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Bordetella Vaccine",
+    "cost": 42,
+    "description": "The Bordetella Vaccine should be given to all puppies and dogs. We offer both intranasal and injectable Bordetella vaccines. Intranasal Bordetella vaccination can be administered at 8 weeks of age and is administered as a nasal spray. Annual booster vaccinations are recommended, or as recommended by your veterinarian.The injectable Bordetella vaccination can also be administered at 8 weeks of age, and requires an initial vaccination followed by a booster 3-4 weeks later. Annual booster vaccinations are recommended.",
+    "image": "https://bestfriendsfurever.com/wp-content/uploads/2021/05/canine-cough-e1620695153803.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Leptospirosis Vaccine (4-Way)",
+    "cost": 42,
+    "description": "This vaccination provides protection against Leptospirosis. This vaccine covers 4 types of Leptospirosis: Leptospira canicola, Leptospira grippotyphosa, Leptospira icterohaemorrhagiae, and Leptospira pomona.",
+    "image": "https://pawcastle.com/wp-content/uploads/2017/08/Leptospirosis-in-Dogs-Data.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lyme Disease Vaccine",
+    "cost": 42,
+    "description": "Vaccination of puppies may begin at 8 weeks, with a booster 3-4 weeks following. An annual booster is recommended.",
+    "image": "https://cdn.mos.cms.futurecdn.net/mpgeF8WrxHBAs6g6JjfjMA.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rattlesnake Vaccine (Regional)",
+    "cost": 46,
+    "description": "Minimum age 16 weeks. Booster recommendations are based on age, weight, and regional exposure.",
+    "image": "http://www.heartlandvetsupply.com/images/Product/large/27291-RattlesnakeVaccineDogs.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Influenza Vaccine",
+    "cost": 51,
+    "description": "Any puppy or dog (8 weeks of age or older) that has never received a Canine Influenza Virus vaccine will receive an initial vaccine followed by a booster 3-4 weeks apart. An annual booster vaccination is recommended. Protective immunity after the initial vaccine series (2 injections given 3-4 weeks apart) does not begin until 2 weeks after the 2nd injection. Keep this in mind before boarding, grooming, or placing your dog into situations where higher risk of infection is possible.",
+    "image": "https://barkpost.com/wp-content/uploads/2015/04/canine-influenza.jpg"
+  },
+  {
+    "id": 8,
+    "name": "3-in-1 Vaccine (FVRCP)",
+    "cost": 51,
+    "description": "Minimum age of 6 weeks or older. Vaccination of kittens should begin at 8 weeks of age and be repeated every 3-4 weeks until 16 weeks of age. A booster vaccination should be given one year later, and then afterward as established in consultation with your veterinarian.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqLWkkrTFQszuny4tHrPEIZbCzbPBCLcjdhw&usqp=CAU"
+  },
+  {
+    "id": 9,
+    "name": "PureVax® Rabies Vaccine (non-adjuvanted)",
+    "cost": 42,
+    "description": "Vaccination of kittens should begin at the minimum age as determined by each state. An annual booster vaccination should be given for life. This vaccine is only labeled for one-year efficacy.",
+    "image": "https://www.msdvetmanual.com/-/media/manual/veterinary/images/d/d/c/ddc_cat_rabies.gif?thn=0&sc_lang=en"
+  },
+  {
+    "id": 10,
+    "name": "Feline Leukemia Vaccine (FeLV)",
+    "cost": 42,
+    "description": "For kittens, two vaccines given at 12 and 16 weeks, and then a booster one year later. For cats at risk, annual vaccination. FeLV is more contagious and prevalent in younger cats.",
+    "image": "https://www.vet.cornell.edu/sites/default/files/FeLV%20signs.jpg"
+  }
+]

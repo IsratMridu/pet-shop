@@ -1,6 +1,8 @@
 
 import { BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 import './App.css';
+import Details from './components/Details/Details';
+import NotFound from './components/NotFound/NotFound';
 import Banner from './components/shared/Banner/Banner';
 import MenuBar from './components/shared/MenuBar/MenuBar';
 
@@ -10,10 +12,22 @@ function App() {
      
       <Router>
       <MenuBar></MenuBar>
-      <Banner></Banner>
+     
         <Switch>
-          <Route>
+          <Route exact path="/">
 
+            <Banner></Banner>
+          </Route>
+          <Route exact path="/home">
+
+            <Banner></Banner>
+          </Route>
+          <Route exact path="/details/:idNumber">
+
+            <Details></Details>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>

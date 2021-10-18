@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../Context/useAuth';
 
 
@@ -10,7 +10,7 @@ const MenuBar = () => {
   
     return (
         <div className=" bg-color">
-           <nav className="navbar navbar-expand-lg navbar-light bg-secondary">
+           <nav className="navbar navbar-expand-lg navbar-light bg-secondary ">
   <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -23,24 +23,24 @@ const MenuBar = () => {
 <img src="https://i.ibb.co/9NQwbqh/logo.png" className="img-fluid  ms-5" alt="img" />
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <NavLink to="/home">Home</NavLink>
+          <HashLink to="/home">Home</HashLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about">About</NavLink>
+          <HashLink to="/about">About</HashLink>
         </li>
         
         <li className="nav-item">
-          <NavLink to="/services">Services</NavLink>
+          <HashLink to="/profile">Profile</HashLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/register">Register</NavLink>
+          <HashLink to="/register">Register</HashLink>
         </li>
         {
             user.email?
             <button className="btn btn-danger" onClick={handleLogOut}>Log Out {user.email}</button>
             :
             <li className="nav-item">
-          <NavLink to="/login">Login</NavLink>
+          <HashLink to="/login">Login</HashLink>
         </li>
         }
        

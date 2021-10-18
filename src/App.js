@@ -6,6 +6,8 @@ import Details from './components/Details/Details';
 import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import Profile from './components/Profile/Profile';
 import Register from './components/Register/Register';
 import Banner from './components/shared/Banner/Banner';
 import MenuBar from './components/shared/MenuBar/MenuBar';
@@ -31,14 +33,18 @@ function App() {
 
             <Login></Login>
           </Route>
+          <PrivateRoute exact path="/profile">
+
+           <Profile></Profile>
+          </PrivateRoute>
           <Route exact path="/register">
 
             <Register></Register>
           </Route>
-          <Route exact path="/details/:idNumber">
+          <PrivateRoute exact path="/details/:idNumber">
 
             <Details></Details>
-          </Route>
+          </PrivateRoute>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

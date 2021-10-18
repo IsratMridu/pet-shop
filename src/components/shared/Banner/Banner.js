@@ -35,7 +35,7 @@ const Banner = () => {
 
             <div className="mt-5">
 
-                <h1 className="text-center mb-5"><span className="text-success">Our Featured</span> Services</h1>
+                <h1 className="text-center mb-5" id="#services"><span className="text-success">Our Featured</span> Services</h1>
               
               <Services></Services>
             </div>

@@ -12,12 +12,14 @@ const useFirebase = () =>{
     const [user, setUser] = useState({});
     const [email , setEmail] = useState('');
     const [password , setPassword] = useState('');
+    const [isLoading, SetIsLoading] = useState(true);
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
+    
 
 const handleGoogleSignIn = () =>{
 
-    
+    SetIsLoading(true);
     signInWithPopup(auth, googleProvider)
     .then(result =>{
         
@@ -27,12 +29,15 @@ const handleGoogleSignIn = () =>{
     
        
     })
+    .finally(()=> SetIsLoading(false));
 } 
 
 const handleLogOut = () =>{
+    SetIsLoading(true);
     signOut(auth).then(() => {
         setUser({});
       })
+      .finally(()=> SetIsLoading(false));
 }
 
 const handleEmail = event =>{
@@ -89,11 +94,12 @@ const handlePassword = event =>{
           // User is signed out
           // ...
         }
+        SetIsLoading(false);
       });
  },[])
 
 
-return {handleGoogleSignIn, user, handleLogOut, handleEmail, handlePassword, handleAddUser, handleRegister };
+return {handleGoogleSignIn, user, handleLogOut, handleEmail, handlePassword, handleAddUser, handleRegister, isLoading };
 
 }
 

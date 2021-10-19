@@ -26,7 +26,7 @@ const MenuBar = () => {
           <HashLink to="/home">Home</HashLink>
         </li>
         <li className="nav-item">
-          <HashLink to="/about">About</HashLink>
+          <HashLink to="/career">Career</HashLink>
         </li>
         
         <li className="nav-item">

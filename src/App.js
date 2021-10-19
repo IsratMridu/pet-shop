@@ -1,6 +1,7 @@
 
 import { BrowserRouter as Router , Switch, Route } from 'react-router-dom';
 import './App.css';
+import Career from './components/Career/Career';
 import AuthProvider from './components/Context/AuthProvider';
 import Details from './components/Details/Details';
 import Footer from './components/Footer/Footer';
@@ -29,6 +30,10 @@ function App() {
 
             <Banner></Banner>
           </Route>
+          <PrivateRoute exact path="/career">
+
+            <Career></Career>
+          </PrivateRoute>
           <Route exact path="/login">
 
             <Login></Login>

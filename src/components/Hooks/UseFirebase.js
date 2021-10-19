@@ -96,7 +96,7 @@ const handlePassword = event =>{
         }
         SetIsLoading(false);
       });
- },[])
+ },[auth])
 
 
 return {handleGoogleSignIn, user, handleLogOut, handleEmail, handlePassword, handleAddUser, handleRegister, isLoading };
